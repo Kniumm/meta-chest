@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "d": "minecraft:diamond",
+    "e": "minecraft:ender_chest",
+    "o": "minecraft:ender_eye",
+    "s": "#minecraft:shulker_boxes"
+  },
+  "pattern": [
+    "dod",
+    "ses",
+    "dsd"
+  ],
+  "result": {
+    "id": "metachest:meta_chest"
+  }
+}

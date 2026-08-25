@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "meta-chest",
+	"version": "${version}",
+	"name": "Meta Chest",
+	"description": "A common chest for common items.",
+	"authors": [
+		"Kniumm"
+	],
+	"contact": {
+		"homepage": "https://github.com/Kniumm",
+		"sources": "https://github.com/Kniumm/meta-chest"
+	},
+	"license": "MIT",
+	"icon": "assets/metachest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"kniumm.metachest.MetaChest"
+		],
+		"client": [
+			"kniumm.metachest.client.MetaChestClient"
+		],
+		"fabric-datagen": [
+			"kniumm.metachest.client.datagen.MetaChestDataGenerator"
+		]
+	},
+	"mixins": [
+		"meta-chest.mixins.json",
+		{
+			"config": "meta-chest.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
