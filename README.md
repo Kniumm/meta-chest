@@ -10,14 +10,14 @@ Meta Chest is a mod which adds 2 chests and 1 item:
 
 **See the Meta-chest as a way to access this shared inventory.**
 
+### Goal
+The primary goal is to have an easy way to get rid of common building/misc blocks which could be useful to someone (or yourself) in the future.
+
 ## The Attuned Ender Chest
 - Can be attuned with an Ender Key.
 - Can interact with hoppers and other automation systems.
 - The associated key is only required for attunement, not for opening the chest.
 - Using another Ender Key will replace the chest's current attunement.
-
-### Goal
-The primary goal is to have an easy way to get rid of common building/misc blocks which could be useful to someone (or yourself) in the future.
 
 ## Ender Key
 - Must be renamed to be used for attunement.
