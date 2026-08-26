@@ -23,6 +23,12 @@ public class ModBlocks {
 			BlockBehaviour.Properties.ofFullCopy(Blocks.ENDER_CHEST)
 	);
 
+	public static final Block ATTUNED_ENDER_CHEST = register(
+			ModBlockItemIds.ATTUNED_ENDER_CHEST,
+			AttunedEnderChestBlock::new,
+			BlockBehaviour.Properties.ofFullCopy(Blocks.ENDER_CHEST)
+	);
+
 	private static @NonNull Block register(ResourceKey<Block> id, @NonNull Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.@NonNull Properties properties) {
 		Block block = blockFactory.apply(properties.setId(id));
 
@@ -41,6 +47,7 @@ public class ModBlocks {
 	public static void initialize() {
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register((creativeTab) -> {
 			creativeTab.accept(ModBlocks.META_CHEST.asItem());
+			creativeTab.accept(ModBlocks.ATTUNED_ENDER_CHEST.asItem());
 		});
 	}
 }

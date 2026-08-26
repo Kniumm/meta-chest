@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/template_chest",
+    "model": {
+      "type": "minecraft:chest",
+      "texture": "metachest:attuned_ender_chest"
+    }
+  }
+}

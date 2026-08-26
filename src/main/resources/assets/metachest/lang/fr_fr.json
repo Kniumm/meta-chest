@@ -1,3 +1,5 @@
 {
-  "block.metachest.meta_chest": "Méta-coffre"
+  "block.metachest.meta_chest": "Méta-coffre",
+  "block.metachest.attuned_ender_chest": "Coffre de l'Ender accordé",
+  "item.metachest.ender_key": "Clé de l'Ender"
 }

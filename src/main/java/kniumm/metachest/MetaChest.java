@@ -15,6 +15,7 @@ public class MetaChest implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.initialize();
 		ModBlockEntities.initialize();
 		ModBlocks.initialize();
 		ModMenuTypes.initialize();

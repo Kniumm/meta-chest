@@ -14,6 +14,9 @@ public class ModBlockEntities {
     public static final BlockEntityType<MetaChestBlockEntity> META_CHEST_ENTITY =
             register("meta_chest", MetaChestBlockEntity::new, ModBlocks.META_CHEST);
 
+    public static final BlockEntityType<AttunedEnderChestBlockEntity> ATTUNED_ENDER_CHEST_ENTITY =
+            register("attuned_meta_chest", AttunedEnderChestBlockEntity::new, ModBlocks.ATTUNED_ENDER_CHEST);
+
     private static <T extends BlockEntity> @NonNull BlockEntityType<T> register(
             String name,
             FabricBlockEntityTypeBuilder.Factory<? extends T> entityFactory,

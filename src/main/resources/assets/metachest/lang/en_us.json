@@ -1,3 +1,5 @@
 {
-  "block.metachest.meta_chest": "Meta-chest"
+  "block.metachest.meta_chest": "Meta-chest",
+  "block.metachest.attuned_ender_chest": "Attuned Ender Chest",
+  "item.metachest.ender_key": "Ender Key"
 }
