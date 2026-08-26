@@ -19,6 +19,7 @@ public class MetaChest implements ModInitializer {
 		ModBlockEntities.initialize();
 		ModBlocks.initialize();
 		ModMenuTypes.initialize();
+		ModLootTables.initialize();
 	}
 
 	@Contract("_ -> new")
