@@ -1,6 +1,5 @@
 package kniumm.metachest;
 
-import kniumm.metachest.metachest.MetaChest;
 import net.minecraft.references.BlockItemId;
 import net.minecraft.resources.Identifier;
 import org.jspecify.annotations.NonNull;

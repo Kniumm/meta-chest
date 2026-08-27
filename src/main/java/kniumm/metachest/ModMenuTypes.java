@@ -1,7 +1,5 @@
 package kniumm.metachest;
 
-import kniumm.metachest.metachest.MetaChest;
-import kniumm.metachest.metachest.MetaChestMenu;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.Identifier;
