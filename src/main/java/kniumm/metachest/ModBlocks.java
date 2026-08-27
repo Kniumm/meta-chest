@@ -1,6 +1,7 @@
 package kniumm.metachest;
 
 import kniumm.metachest.attunedchest.AttunedEnderChestBlock;
+import kniumm.metachest.metachest.MetaChestBlock;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;

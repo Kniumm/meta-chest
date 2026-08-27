@@ -1,5 +1,6 @@
-package kniumm.metachest;
+package kniumm.metachest.metachest;
 
+import kniumm.metachest.*;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;

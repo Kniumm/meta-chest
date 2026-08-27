@@ -1,6 +1,6 @@
 package kniumm.metachest.client;
 
-import kniumm.metachest.MetaChest;
+import kniumm.metachest.metachest.MetaChest;
 import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.resources.model.sprite.SpriteId;
 import net.minecraft.resources.Identifier;
