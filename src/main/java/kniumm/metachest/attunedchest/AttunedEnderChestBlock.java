@@ -1,6 +1,8 @@
-package kniumm.metachest;
+package kniumm.metachest.attunedchest;
 
 import com.mojang.serialization.MapCodec;
+import kniumm.metachest.ModBlockEntities;
+import kniumm.metachest.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.ParticleTypes;

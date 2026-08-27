@@ -1,8 +1,9 @@
-package kniumm.metachest;
+package kniumm.metachest.attunedchest;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.DataResult;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
+import kniumm.metachest.MetaChest;
 import net.minecraft.core.NonNullList;
 import net.minecraft.resources.Identifier;
 import net.minecraft.server.MinecraftServer;

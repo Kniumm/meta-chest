@@ -1,5 +1,6 @@
 package kniumm.metachest;
 
+import kniumm.metachest.attunedchest.AttunedEnderChestBlockEntity;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.Identifier;

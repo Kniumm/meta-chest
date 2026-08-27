@@ -1,7 +1,7 @@
 package kniumm.metachest.client.mixin;
 
 import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
-import kniumm.metachest.AttunedEnderChestBlockEntity;
+import kniumm.metachest.attunedchest.AttunedEnderChestBlockEntity;
 import kniumm.metachest.client.ChestRenderStateExtension;
 import kniumm.metachest.client.MetaChestRenderer;
 import net.minecraft.client.renderer.blockentity.ChestRenderer;

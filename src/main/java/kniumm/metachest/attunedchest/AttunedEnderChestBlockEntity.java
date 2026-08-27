@@ -1,5 +1,7 @@
-package kniumm.metachest;
+package kniumm.metachest.attunedchest;
 
+import kniumm.metachest.ModBlockEntities;
+import kniumm.metachest.ModBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.component.DataComponentGetter;
