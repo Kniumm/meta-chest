@@ -3,12 +3,12 @@
 	"id": "meta-chest",
 	"version": "${version}",
 	"name": "Meta Chest",
-	"description": "A common chest for common items.",
+	"description": "Adds 2 new chests: a common chest for common items, and another whose contents can be shared with other chests.",
 	"authors": [
 		"Kniumm"
 	],
 	"contact": {
-		"homepage": "https://github.com/Kniumm",
+		"homepage": "https://modrinth.com/mod/meta-chest",
 		"sources": "https://github.com/Kniumm/meta-chest"
 	},
 	"license": "MIT",
