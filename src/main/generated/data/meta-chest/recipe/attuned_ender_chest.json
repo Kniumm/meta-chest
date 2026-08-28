@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": "minecraft:compass",
+    "d": "minecraft:diamond",
+    "e": "minecraft:ender_chest",
+    "p": "minecraft:ender_pearl"
+  },
+  "pattern": [
+    "dcd",
+    "pep",
+    "dpd"
+  ],
+  "result": {
+    "id": "metachest:attuned_ender_chest"
+  }
+}

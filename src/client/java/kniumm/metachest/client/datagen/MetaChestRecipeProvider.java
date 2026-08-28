@@ -38,6 +38,17 @@ public class MetaChestRecipeProvider extends FabricRecipeProvider {
                         .define('e', Items.ENDER_CHEST)
                         .unlockedBy(getHasName(Items.ENDER_CHEST), has(Items.ENDER_CHEST))
                         .save(output);
+
+                shaped(RecipeCategory.MISC, ModBlocks.ATTUNED_ENDER_CHEST)
+                        .pattern("dcd")
+                        .pattern("pep")
+                        .pattern("dpd")
+                        .define('d', Items.DIAMOND)
+                        .define('c', Items.COMPASS)
+                        .define('p', Items.ENDER_PEARL)
+                        .define('e', Items.ENDER_CHEST)
+                        .unlockedBy(getHasName(Items.ENDER_CHEST), has(Items.ENDER_CHEST))
+                        .save(output);
             }
         };
     }
