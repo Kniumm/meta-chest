@@ -10,5 +10,6 @@ public class MetaChestDataGenerator implements DataGeneratorEntrypoint {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
         pack.addProvider(MetaChestRecipeProvider::new);
+        pack.addProvider(MetaChestAdvancementProvider::new);
     }
 }

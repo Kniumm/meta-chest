@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_ender_chest": {
+    "got_ender_key": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:ender_chest"
+            "items": "metachest:ender_key"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_ender_chest"
+      "got_ender_key"
     ]
   ],
   "rewards": {

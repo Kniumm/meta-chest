@@ -3,6 +3,7 @@ package kniumm.metachest.client.datagen;
 import java.util.concurrent.CompletableFuture;
 
 import kniumm.metachest.ModBlocks;
+import kniumm.metachest.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.recipes.RecipeCategory;
@@ -47,7 +48,7 @@ public class MetaChestRecipeProvider extends FabricRecipeProvider {
                         .define('c', Items.COMPASS)
                         .define('p', Items.ENDER_PEARL)
                         .define('e', Items.ENDER_CHEST)
-                        .unlockedBy(getHasName(Items.ENDER_CHEST), has(Items.ENDER_CHEST))
+                        .unlockedBy("got_ender_key", has(ModItems.ENDER_KEY))
                         .save(output);
             }
         };
