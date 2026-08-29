@@ -2,10 +2,7 @@
   "required": true,
   "package": "kniumm.metachest.client.mixin",
   "compatibilityLevel": "JAVA_25",
-  "client": [
-    "ChestRenderStateMixin",
-    "ChestRendererMixin"
-  ],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   },
